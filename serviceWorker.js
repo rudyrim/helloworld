@@ -8,7 +8,7 @@ const assets = [
 
 if ('serviceWorker' in navigator) {
   console.log('CLIENT: service worker registration in progress.');
-  navigator.serviceWorker.register('https://rudyrim.github.io/helloworld//servicWorker.js').then(function() {
+  navigator.serviceWorker.register('https://rudyrim.github.io/helloworld/servicWorker.js').then(function() {
     console.log('CLIENT: service worker registration complete.');
   }, function() {
     console.log('CLIENT: service worker registration failure.');
