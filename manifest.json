@@ -3,7 +3,7 @@
 	"name": "Rim",
 	"lang": "fr",
 	"description": "Hello World app",
-	"start_url": ".",
+	"start_url": "https://rudyrim.github.io/helloworld/",
 	"background_color": "#e79800",
 	"theme_color": "#f06314",
 	"dir": "ltr",
