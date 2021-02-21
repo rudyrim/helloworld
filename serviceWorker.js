@@ -1,14 +1,14 @@
 const staticDevCoffee = "dev-coffee-site-v1"
 const assets = [
   "/",
-  "index.html",
-  "style.css",
-  "app.js"
+  "https://rudyrim.github.io/helloworld/index.html",
+  "https://rudyrim.github.io/helloworld/style.css",
+  "https://rudyrim.github.io/helloworld/app.js"
 ]
 
 if ('serviceWorker' in navigator) {
   console.log('CLIENT: service worker registration in progress.');
-  navigator.serviceWorker.register('/servicWorker.js').then(function() {
+  navigator.serviceWorker.register('https://rudyrim.github.io/helloworld//servicWorker.js').then(function() {
     console.log('CLIENT: service worker registration complete.');
   }, function() {
     console.log('CLIENT: service worker registration failure.');
